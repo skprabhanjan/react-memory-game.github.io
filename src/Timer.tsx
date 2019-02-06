@@ -34,7 +34,7 @@ class Timer extends React.Component<TimerProps, TimerStates> {
     constructor(props: any) {
         super(props);
         this.state = {
-            secondsRemaining: 60, colorToBeShown: "black", open: false,
+            secondsRemaining: 30, colorToBeShown: "black", open: false,
             gameContinuePopUp: false
         };
     }
